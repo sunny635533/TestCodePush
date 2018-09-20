@@ -1,0 +1,122 @@
+# Uncomment the next line to define a global platform for your project
+ platform :ios, '9.0'
+
+#use_frameworks!
+
+#target 'HongSiRN' do
+abstract_target 'defaults' do
+    # Targets. Keep those in sync with the project.
+    'Dev Production Staging QA'.split.each do |x|
+        target "Tar#{x}"
+    end
+
+  # Uncomment the next line if you're using Swift or would like to use dynamic frameworks
+  # use_frameworks!
+
+  pod 'ReactiveCocoa'
+  pod ‘ReactiveObjC’, ‘~> 3.0.0’
+
+
+  # Pods for HongSiRN
+
+pod 'react-native-spinkit', :path => '../node_modules/react-native-spinkit'
+pod 'CodePush',:path => '../node_modules/react-native-code-push'
+
+
+# Explicitly include Yoga if you are using RN >= 0.42.0
+pod 'yoga', :path => '../node_modules/react-native/ReactCommon/yoga'
+
+# Third party deps
+pod 'DoubleConversion', :podspec => '../node_modules/react-native/third-party-podspecs/DoubleConversion.podspec'
+pod 'glog', :podspec => '../node_modules/react-native/third-party-podspecs/glog.podspec'
+pod 'Folly', :podspec => '../node_modules/react-native/third-party-podspecs/Folly.podspec'
+
+# ReactNative dependencies. See
+# https://facebook.github.io/react-native/docs/embedded-app-ios.html
+pod 'React', :path => '../node_modules/react-native', :subspecs => [
+'Core',
+'CxxBridge', # Include this for RN >= 0.47
+'DevSupport',# Include this to enable In-App Devmenu if RN >= 0.43
+'ART',
+'RCTActionSheet',
+'RCTImage',
+'RCTNetwork',
+'RCTText',
+'RCTWebSocket',
+'RCTLinkingIOS',
+'RCTPushNotification',
+'RCTVibration',
+'RCTGeolocation',
+'RCTCameraRoll',
+'RCTAnimation',
+]
+end
+
+
+
+
+#------------------------------------ for solve update RN version bug ----------------------------
+# When using RN in combination with Cocoapods, a lot of
+# things are broken. These are the fixes we had to append
+# to our Podfile when upgrading to ReactNative@0.55.3.
+#
+# WARNING: Check those line numbers when you're on a different version!
+#
+def change_lines_in_file(file_path, &change)
+    print "Fixing #{file_path}...\n"
+    
+    contents = []
+    
+    file = File.open(file_path, 'r')
+    file.each_line do | line |
+        contents << line
+    end
+    file.close
+    
+    File.open(file_path, 'w') do |f|
+        f.puts(change.call(contents))
+    end
+end
+
+post_install do |installer|
+    # Xcode 8.0 compatibility fix.
+    # See https://github.com/CocoaPods/CocoaPods/issues/5521
+    installer.pods_project.targets.each do |target|
+        target.build_configurations.each do |config|
+            config.build_settings['SWIFT_VERSION'] = '3.0'
+        end
+    end
+    
+    # https://github.com/facebook/yoga/issues/711#issuecomment-381098373
+    change_lines_in_file('./Pods/Target Support Files/yoga/yoga-umbrella.h') do |lines|
+        lines.reject do | line |
+            [
+            '#import "Utils.h"',
+            '#import "YGLayout.h"',
+            '#import "YGNode.h"',
+            '#import "YGNodePrint.h"',
+            '#import "YGStyle.h"',
+            '#import "Yoga-internal.h"',
+            ].include?(line.strip)
+        end
+    end
+    
+    # https://github.com/facebook/yoga/issues/711#issuecomment-374605785
+    change_lines_in_file('../node_modules/react-native/React/Base/Surface/SurfaceHostingView/RCTSurfaceSizeMeasureMode.h') do |lines|
+        unless lines[27].include?("#ifdef __cplusplus")
+            lines.insert(27, "#ifdef __cplusplus")
+            lines.insert(34, "#endif")
+        end
+        lines
+    end
+    
+    # https://github.com/facebook/react-native/issues/13198
+    change_lines_in_file('../node_modules/react-native/Libraries/NativeAnimation/RCTNativeAnimatedNodesManager.h') do |lines|
+        lines.map { |line| line.include?("#import <RCTAnimation/RCTValueAnimatedNode.h>") ? '#import "RCTValueAnimatedNode.h"' : line }
+    end
+    
+    # https://github.com/facebook/react-native/issues/16039
+    change_lines_in_file('../node_modules/react-native/Libraries/WebSocket/RCTReconnectingWebSocket.m') do |lines|
+        lines.map { |line| line.include?("#import <fishhook/fishhook.h>") ? '#import "fishhook.h"' : line }
+    end
+end

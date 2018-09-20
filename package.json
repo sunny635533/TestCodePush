@@ -1,0 +1,45 @@
+{
+  "name": "CheZhuRN",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node node_modules/react-native/local-cli/cli.js start",
+    "test": "jest"
+  },
+  "dependencies": {
+    "@types/lodash": "^4.14.113",
+    "buffer": "^5.1.0",
+    "core-decorators": "^0.20.0",
+    "events": "^3.0.0",
+    "moment": "^2.22.2",
+    "qs": "^6.5.2",
+    "react": "^16.3.1",
+    "react-native": "0.55.4",
+    "react-native-code-push": "5.3.4",
+    "react-native-easy-toast": "^1.1.0",
+    "react-native-picker": "^4.3.7",
+    "react-native-spinkit": "^1.1.1",
+    "react-native-tabbar-view": "^1.0.5",
+    "react-navigation": "^2.5.2",
+    "stream": "0.0.2",
+    "timers": "^0.1.1",
+    "xml2js": "^0.4.19"
+  },
+  "devDependencies": {
+    "@types/qs": "^6.5.1",
+    "@types/react": "^16.4.1",
+    "@types/react-native": "^0.55.22",
+    "@types/react-navigation": "^2.0.7",
+    "@types/xml2js": "^0.4.3",
+    "babel-jest": "23.0.1",
+    "babel-preset-react-native": "4.0.0",
+    "jest": "23.1.0",
+    "react-native-typescript-transformer": "^1.2.10",
+    "react-test-renderer": "16.3.1",
+    "tslint": "^5.10.0",
+    "typescript": "2.9.2"
+  },
+  "jest": {
+    "preset": "react-native"
+  }
+}

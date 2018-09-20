@@ -1,0 +1,16 @@
+//rootProject.name = 'HongSiRN'
+include ':app'
+
+
+def includeNpm(String name) {
+    includeNpm2(name, "android")
+}
+
+def includeNpm2(String name, String extraDir) {
+    include ":$name"
+    project(":$name").projectDir = new File("$rootDir/../node_modules/$name/$extraDir")
+}
+
+
+includeNpm('react-native-spinkit')
+includeNpm2('react-native-code-push', 'android/app')

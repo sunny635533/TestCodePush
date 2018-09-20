@@ -1,0 +1,275 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="/Users/sunny/.gradle/caches/modules-2/files-2.1/net.minidev/accessors-smart/1.2/c592b500269bfde36096641b01238a8350f8aa31/accessors-smart-1.2.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="c592b500269bfde36096641b01238a8350f8aa31">
+        <dex dex="/Users/sunny/Documents/react-native-project/HongSiRN/android/app/build/intermediates/pre-dexed/debug/accessors-smart-1.2_f290f94a16ea7d3965f0ab3cf335108c59740b37.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/sunny/Documents/react-native-project/HongSiRN/android/app/build/intermediates/exploded-aar/com.facebook.react/react-native/0.55.4/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="e31331bdf6b5952badadbfc171f04b95c55d3b16">
+        <dex dex="/Users/sunny/Documents/react-native-project/HongSiRN/android/app/build/intermediates/pre-dexed/debug/com.facebook.react-react-native-0.55.4_acd8c0efe39050793e337bd1b5578a0ce782c6ce.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/sunny/Documents/react-native-project/HongSiRN/android/app/build/intermediates/exploded-aar/com.facebook.fresco/imagepipeline-okhttp3/1.3.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="c03c08c9934b23c8c09c803345ec51a74119127b">
+        <dex dex="/Users/sunny/Documents/react-native-project/HongSiRN/android/app/build/intermediates/pre-dexed/debug/com.facebook.fresco-imagepipeline-okhttp3-1.3.0_a78c6cfc856ea68f450d0d2b1e7ab8bcd6aec1ce.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/sunny/Documents/react-native-project/HongSiRN/android/app/build/intermediates/exploded-aar/com.facebook.fresco/imagepipeline/1.3.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="48c7f54c2515a2312d3a4481d10c43fbb807f3af">
+        <dex dex="/Users/sunny/Documents/react-native-project/HongSiRN/android/app/build/intermediates/pre-dexed/debug/com.facebook.fresco-imagepipeline-1.3.0_51a40dcd13c2b224e0ac203406d960aadfe4a97a.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/sunny/.gradle/caches/modules-2/files-2.1/com.squareup.okio/okio/1.13.0/a9283170b7305c8d92d25aff02a6ab7e45d06cbe/okio-1.13.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="a9283170b7305c8d92d25aff02a6ab7e45d06cbe">
+        <dex dex="/Users/sunny/Documents/react-native-project/HongSiRN/android/app/build/intermediates/pre-dexed/debug/okio-1.13.0_ffa09d60fa08fc83e42195715d450acd37f2c400.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/sunny/Documents/react-native-project/HongSiRN/android/app/build/intermediates/exploded-aar/com.facebook.fresco/imagepipeline-base/1.3.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="72128af126ddd7d6252da9357fe560d3abcdfb0c">
+        <dex dex="/Users/sunny/Documents/react-native-project/HongSiRN/android/app/build/intermediates/pre-dexed/debug/com.facebook.fresco-imagepipeline-base-1.3.0_f1e7b302d2ee2cdbf64843dd9503a9bb4ade907c.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/sunny/Documents/react-native-project/HongSiRN/android/app/build/intermediates/exploded-aar/HongSiRN/react-native-spinkit/unspecified/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="76a143f800dbb448450ea9bd728cc3ff5fe7d0e6">
+        <dex dex="/Users/sunny/Documents/react-native-project/HongSiRN/android/app/build/intermediates/pre-dexed/debug/HongSiRN-react-native-spinkit-unspecified_29ba1cb19442e5a9906fcc365dedfb740344b685.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/sunny/Documents/react-native-project/HongSiRN/android/app/build/intermediates/exploded-aar/HongSiRN/react-native-code-push/unspecified/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="b713fe4c91c2da4740c3cc6b8648c3b7d6f53619">
+        <dex dex="/Users/sunny/Documents/react-native-project/HongSiRN/android/app/build/intermediates/pre-dexed/Staging/release/HongSiRN-react-native-code-push-unspecified_652592c2adf0760f9b0b2b17d53e1502fcf04cda.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/sunny/.gradle/caches/modules-2/files-2.1/net.minidev/json-smart/2.3/7396407491352ce4fa30de92efb158adb76b5b/json-smart-2.3.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="007396407491352ce4fa30de92efb158adb76b5b">
+        <dex dex="/Users/sunny/Documents/react-native-project/HongSiRN/android/app/build/intermediates/pre-dexed/debug/json-smart-2.3_f447f2b778beb0c51f2485b30f7cc80824b543c4.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/sunny/Documents/react-native-project/HongSiRN/android/app/build/intermediates/exploded-aar/com.facebook.react/react-native/0.55.4/jars/libs/infer-annotations-4.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="9809e90be788acdb479b2b44e2112f3295a03068">
+        <dex dex="/Users/sunny/Documents/react-native-project/HongSiRN/android/app/build/intermediates/pre-dexed/debug/infer-annotations-4.0_448690887bd1098c9a60924743134145c5a2b0c4.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/sunny/Documents/react-native-project/HongSiRN/android/app/build/intermediates/exploded-aar/com.facebook.soloader/soloader/0.1.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="8f615bca00639150c9eb6175d4b5471193f70794">
+        <dex dex="/Users/sunny/Documents/react-native-project/HongSiRN/android/app/build/intermediates/pre-dexed/debug/com.facebook.soloader-soloader-0.1.0_df4c28a055ed728cfb77da13b6c77b32260c4c7f.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/sunny/.gradle/caches/modules-2/files-2.1/com.parse.bolts/bolts-tasks/1.4.0/d85884acf6810a3bbbecb587f239005cbc846dc4/bolts-tasks-1.4.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="d85884acf6810a3bbbecb587f239005cbc846dc4">
+        <dex dex="/Users/sunny/Documents/react-native-project/HongSiRN/android/app/build/intermediates/pre-dexed/debug/bolts-tasks-1.4.0_2c2671b4be4cf203dfe83c8386113663f7d5c168.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/sunny/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/23.0.1/support-annotations-23.0.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="1fce89a6428c51467090d7f424e4c9c3dbd55f7e">
+        <dex dex="/Users/sunny/Documents/react-native-project/HongSiRN/android/app/build/intermediates/pre-dexed/debug/support-annotations-23.0.1_4e6d9e5ab37595114ab2d1638bcdcad097350c4c.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/sunny/.gradle/caches/modules-2/files-2.1/org.ow2.asm/asm/5.0.4/da08b8cce7bbf903602a25a3a163ae252435795/asm-5.0.4.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="0da08b8cce7bbf903602a25a3a163ae252435795">
+        <dex dex="/Users/sunny/Documents/react-native-project/HongSiRN/android/app/build/intermediates/pre-dexed/debug/asm-5.0.4_4dacff6c97bec47f01cdf3c035b0a06bcbbae25e.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/sunny/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp3/okhttp-urlconnection/3.6.0/3f9b16b774f2c36cfd86dd2053d0b3059531dacc/okhttp-urlconnection-3.6.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="3f9b16b774f2c36cfd86dd2053d0b3059531dacc">
+        <dex dex="/Users/sunny/Documents/react-native-project/HongSiRN/android/app/build/intermediates/pre-dexed/debug/okhttp-urlconnection-3.6.0_f34ca9a83f645a4340b4152551f13c4b63dd3d9a.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/sunny/Documents/react-native-project/HongSiRN/android/app/build/intermediates/exploded-aar/com.facebook.fbui.textlayoutbuilder/textlayoutbuilder/1.0.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="f90b593491e4044903f0bbf68dc3fa2790b151b9">
+        <dex dex="/Users/sunny/Documents/react-native-project/HongSiRN/android/app/build/intermediates/pre-dexed/debug/com.facebook.fbui.textlayoutbuilder-textlayoutbuilder-1.0.0_296a68409905792a5ce1a957cd43ad00425ecc08.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/sunny/Documents/react-native-project/HongSiRN/android/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.0.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="c31e21b53ff2f74664e498248d01453a32e32d48">
+        <dex dex="/Users/sunny/Documents/react-native-project/HongSiRN/android/app/build/intermediates/pre-dexed/debug/com.android.support-support-v4-23.0.1_1b380e00ff84320a4b0c63b1ac6da6fb313e989e.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/sunny/Documents/react-native-project/HongSiRN/android/app/build/intermediates/exploded-aar/com.facebook.fresco/fresco/1.3.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="fe85b87215e405f5917d40ae4960488ac9224b74">
+        <dex dex="/Users/sunny/Documents/react-native-project/HongSiRN/android/app/build/intermediates/pre-dexed/debug/com.facebook.fresco-fresco-1.3.0_3364938777d20bf565cbc4747501d59218f18aeb.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/sunny/Documents/react-native-project/HongSiRN/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="d86429b0f0b3f3cafbeb78dda1b9d89119ccb05d">
+        <dex dex="/Users/sunny/Documents/react-native-project/HongSiRN/android/app/build/intermediates/pre-dexed/debug/com.android.support-appcompat-v7-23.0.1_76c56629ccbe59ccc7fc16c9b6e78c41e9c46eae.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/sunny/.gradle/caches/modules-2/files-2.1/javax.inject/javax.inject/1/6975da39a7040257bd51d21a231b76c915872d38/javax.inject-1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="6975da39a7040257bd51d21a231b76c915872d38">
+        <dex dex="/Users/sunny/Documents/react-native-project/HongSiRN/android/app/build/intermediates/pre-dexed/debug/javax.inject-1_a84daf3904ea039712eec6e9028eeaa4299fc375.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/sunny/Documents/react-native-project/HongSiRN/android/app/build/intermediates/exploded-aar/com.github.ybq/Android-SpinKit/1.1.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="21c0f1b0de29bfe601028757c5cb125c343f5164">
+        <dex dex="/Users/sunny/Documents/react-native-project/HongSiRN/android/app/build/intermediates/pre-dexed/debug/com.github.ybq-Android-SpinKit-1.1.0_6791b7acb40817e464f11c9af63f145b87d2015d.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/sunny/.gradle/caches/modules-2/files-2.1/com.facebook.fbui.textlayoutbuilder/staticlayout-proxy/1.0/f162442a19fff13995fbd51ba414d9ee05579080/staticlayout-proxy-1.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="f162442a19fff13995fbd51ba414d9ee05579080">
+        <dex dex="/Users/sunny/Documents/react-native-project/HongSiRN/android/app/build/intermediates/pre-dexed/debug/staticlayout-proxy-1.0_fd693776b7fab7e207dfe17301d8667b4376bade.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/sunny/Documents/react-native-project/HongSiRN/android/app/build/intermediates/exploded-aar/com.facebook.fresco/drawee/1.3.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="c65a2e39d54023bac3aef64a2f0cff89289c7ff6">
+        <dex dex="/Users/sunny/Documents/react-native-project/HongSiRN/android/app/build/intermediates/pre-dexed/debug/com.facebook.fresco-drawee-1.3.0_73fbe087c8169cb51bb8f0fd95bf070e4fcd939c.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/sunny/Documents/react-native-project/HongSiRN/android/app/build/intermediates/exploded-aar/com.facebook.fresco/fbcore/1.3.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="37345de2ed2772f385eaeec37a9c2ff0fea99ad7">
+        <dex dex="/Users/sunny/Documents/react-native-project/HongSiRN/android/app/build/intermediates/pre-dexed/debug/com.facebook.fresco-fbcore-1.3.0_1b7871bbcecf61a3966e5be09e43d0107441a540.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/sunny/.gradle/caches/modules-2/files-2.1/com.google.code.findbugs/jsr305/3.0.0/5871fb60dc68d67da54a663c3fd636a10a532948/jsr305-3.0.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="5871fb60dc68d67da54a663c3fd636a10a532948">
+        <dex dex="/Users/sunny/Documents/react-native-project/HongSiRN/android/app/build/intermediates/pre-dexed/debug/jsr305-3.0.0_6bcd813943f6ade47092388a09ce1d0b4a147ab5.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/sunny/Documents/react-native-project/HongSiRN/android/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.0.1/jars/libs/internal_impl-23.0.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="aa92916125166649d8ad4ba3940c3dd7515596d3">
+        <dex dex="/Users/sunny/Documents/react-native-project/HongSiRN/android/app/build/intermediates/pre-dexed/debug/internal_impl-23.0.1_3824f1e582b4cc3744e05b791bba185668bbd668.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/sunny/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp3/okhttp/3.6.0/69edde9fc4b01c9fd51d25b83428837478c27254/okhttp-3.6.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="69edde9fc4b01c9fd51d25b83428837478c27254">
+        <dex dex="/Users/sunny/Documents/react-native-project/HongSiRN/android/app/build/intermediates/pre-dexed/debug/okhttp-3.6.0_04b7310002f4f54cc1e9c662bacdee06e3ac5abe.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/sunny/Documents/react-native-project/HongSiRN/android/app/build/intermediates/exploded-aar/HongSiRN/react-native-image-picker/unspecified/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="beca3a29d7f67ed2242e46811ce303ec5417bb39">
+        <dex dex="/Users/sunny/Documents/react-native-project/HongSiRN/android/app/build/intermediates/pre-dexed/Dev/debug/HongSiRN-react-native-image-picker-unspecified_6658b9a15fe983ac167966faf3a395b0e7a4bd8c.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/sunny/.gradle/caches/modules-2/files-2.1/com.nimbusds/nimbus-jose-jwt/5.1/98dfb9ee74d290afce026a262c6297138a0c8ec4/nimbus-jose-jwt-5.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="98dfb9ee74d290afce026a262c6297138a0c8ec4">
+        <dex dex="/Users/sunny/Documents/react-native-project/HongSiRN/android/app/build/intermediates/pre-dexed/debug/nimbus-jose-jwt-5.1_c06b6e71cca67810dba1f2881d735c1aae481c57.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/sunny/.gradle/caches/modules-2/files-2.1/com.github.stephenc.jcip/jcip-annotations/1.0-1/ef31541dd28ae2cefdd17c7ebf352d93e9058c63/jcip-annotations-1.0-1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="ef31541dd28ae2cefdd17c7ebf352d93e9058c63">
+        <dex dex="/Users/sunny/Documents/react-native-project/HongSiRN/android/app/build/intermediates/pre-dexed/debug/jcip-annotations-1.0-1_83f907e4467b51ff5383ef1dcfde129c9dd2eb73.jar" />
+    </item>
+
+</items>
