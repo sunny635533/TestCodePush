@@ -10,13 +10,7 @@ abstract_target 'defaults' do
         target "Tar#{x}"
     end
 
-  # Uncomment the next line if you're using Swift or would like to use dynamic frameworks
-  # use_frameworks!
-
-  pod 'ReactiveCocoa'
-  pod ‘ReactiveObjC’, ‘~> 3.0.0’
-
-
+  
   # Pods for HongSiRN
 
 pod 'react-native-spinkit', :path => '../node_modules/react-native-spinkit'

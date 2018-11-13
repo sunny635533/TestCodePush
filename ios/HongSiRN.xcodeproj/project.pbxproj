@@ -10,6 +10,8 @@
 		13B07FBC1A68108700A75B9A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
+		72B3613EC7A3C105A7F8651A /* libPods-defaults-TarProduction.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CD8B776C25DA932247FAA106 /* libPods-defaults-TarProduction.a */; };
+		766E5478288236C9294D4ADF /* libPods-defaults-TarStaging.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 22F8D7E1E85AD7EBB899E616 /* libPods-defaults-TarStaging.a */; };
 		A34223C520E1DBDF002F13D9 /* MacroAdapter.m in Sources */ = {isa = PBXBuildFile; fileRef = A3DA881220E0E35D00C09206 /* MacroAdapter.m */; };
 		A34223C620E1DBDF002F13D9 /* LegacyStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3DA881820E0EA5600C09206 /* LegacyStorage.swift */; };
 		A34223C720E1DBDF002F13D9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
@@ -63,6 +65,8 @@
 		A3DA881320E0E35D00C09206 /* TFNativeBridge.m in Sources */ = {isa = PBXBuildFile; fileRef = A3DA881120E0E35D00C09206 /* TFNativeBridge.m */; };
 		A3DA881420E0E35D00C09206 /* MacroAdapter.m in Sources */ = {isa = PBXBuildFile; fileRef = A3DA881220E0E35D00C09206 /* MacroAdapter.m */; };
 		A3DA881920E0EA5600C09206 /* LegacyStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3DA881820E0EA5600C09206 /* LegacyStorage.swift */; };
+		E5EC1CAA4BEBC38E0B85753B /* libPods-defaults-TarQA.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3577E9559A9545D7A4B32E17 /* libPods-defaults-TarQA.a */; };
+		F1E8C83F155CEEC304CC7D24 /* libPods-defaults-TarDev.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DC6D1B93DAC2B7A204C8AF95 /* libPods-defaults-TarDev.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -114,6 +118,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F1E8C83F155CEEC304CC7D24 /* libPods-defaults-TarDev.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -121,6 +126,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				72B3613EC7A3C105A7F8651A /* libPods-defaults-TarProduction.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -128,6 +134,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				766E5478288236C9294D4ADF /* libPods-defaults-TarStaging.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -135,6 +142,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E5EC1CAA4BEBC38E0B85753B /* libPods-defaults-TarQA.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
